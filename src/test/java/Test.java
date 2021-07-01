@@ -9,7 +9,7 @@ public class Test {
 
   public static void main(String[] args) {
 
-    String securityKey = "PMS_2020";
+    String securityKey = "DS_2020";
     String userId = "2AF467EAF821000";
     String tenantId = "91210200726041960P";
 

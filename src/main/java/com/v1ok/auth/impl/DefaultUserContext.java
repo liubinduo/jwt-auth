@@ -20,7 +20,7 @@ public class DefaultUserContext implements IUserContext {
 
 
   protected String userId;
-  protected List<String> positions;
+  protected String positions;
   protected List<String> permissions;
   protected String tenantId;
 

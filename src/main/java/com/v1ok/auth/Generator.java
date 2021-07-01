@@ -4,8 +4,6 @@ import com.v1ok.auth.impl.AccessTokenGenerator;
 import com.v1ok.auth.impl.TokenGenerator;
 import java.util.Date;
 import org.apache.commons.lang3.time.DateUtils;
-import com.v1ok.auth.IAppContext;
-import com.v1ok.auth.IUserContext;
 
 public class Generator {
 

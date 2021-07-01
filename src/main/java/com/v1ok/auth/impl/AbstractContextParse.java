@@ -25,7 +25,7 @@ public abstract class AbstractContextParse {
 
       String userId = claims.get(USER_ID, String.class);
       String tenantId = claims.get(USER_TENANT_ID, String.class);
-      List positions = claims.get(USER_POSITIONS_ID_KEY, List.class);
+      String positions = claims.get(USER_POSITIONS_ID_KEY, String.class);
       List permissions = claims.get(USER_PERMISSIONS_ID_KEY, List.class);
 
       return DefaultUserContext.builder()

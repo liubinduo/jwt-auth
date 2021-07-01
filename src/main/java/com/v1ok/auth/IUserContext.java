@@ -12,7 +12,10 @@ public interface IUserContext extends IContext {
   String USER_POSITIONS_ID_KEY = "positions";
   String USER_PERMISSIONS_ID_KEY = "permissions";
 
-  List<String> getPositions();
+  /**
+   * 岗位
+   */
+  String getPositions();
 
   /**
    * 用户ID
